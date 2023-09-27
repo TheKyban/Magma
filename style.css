@@ -1,0 +1,252 @@
+@font-face {
+    font-family: Jost0;
+    src: url(fonts/jost-variable.woff2);
+}
+@font-face {
+    font-family: Jost1;
+    src: url(fonts/KFOlCnqEu92Fr1MmEU9fBBc4.woff2);
+}
+@font-face {
+    font-family: Jost2;
+    src: url(fonts/KFOmCnqEu92Fr1Mu4mxK.woff2);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    position: relative;
+    overflow: hidden;
+    background-color: #1639D4;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#page1 video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#page1 nav {
+    /* height: 10vh; */
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 70px 0;
+}
+
+#page1 > nav > img {
+    width: 5.5rem;
+}
+
+#right-nav {
+    display: flex;
+    gap: 2rem;
+}
+#right-nav button {
+    padding: 15px 30px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #dadada67;
+    background-color: transparent;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: Jost1;
+}
+
+#right-nav button:last-of-type {
+    font-size: 1rem;
+}
+
+#bottom-page1 {
+    position: absolute;
+    bottom: 10%;
+    left: 9%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    z-index: 2;
+}
+#bottom-page1 h1 {
+    font-family: Jost0;
+    font-weight: 300;
+    font-size: 6.5vw;
+    line-height: 1;
+    color: #fff;
+}
+
+#bottom-page1-down {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#bottom-page1-down p {
+    text-align: left;
+    color: #fff;
+    font-family: Jost0;
+    font-size: 1.5rem;
+    font-weight: 300;
+    width: 45%;
+    line-height: 1.5;
+}
+#bottom-page1-down button {
+    height: fit-content;
+    padding: 15px 50px;
+    background-color: #fff;
+    color: #4040e0;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-family: Jost0;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+#bottom-page1-down button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* page2 */
+#page2 {
+    height: 100vh;
+    min-width: 100vw;
+    position: relative;
+    /* background-color: #1340DB; */
+    background-color: #1639D4;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 150px;
+    align-items: center;
+}
+
+#page2 #page2-texts {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#page2 h5 {
+    color: #fff;
+    font: 400 1.3rem Jost0;
+}
+#page2 p {
+    font: 300 5rem/1.3 Jost0;
+    color: #ffffff6b;
+
+}
+
+
+/* Page3 */
+#page3 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* background-color: #1639D4; */
+    z-index: 999;
+}
+
+#page3 canvas {
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+}
+
+
+/* page4 */
+#page4 {
+    height: 100vh;
+    min-width: 100vw;
+    position: relative;
+    background-color: #1639D4;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 150px;
+    align-items: center;
+}
+
+#page4 #page4-texts {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#page4 h5 {
+    color: #fff;
+    font: 400 1.3rem Jost0;
+}
+#page4 p {
+    font: 300 5rem/1.3 Jost0;
+    color: #ffffff6b;
+}
+
+
+/* Page5 */
+#page5 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    /* background-color: #1639D4; */
+    z-index: 999;
+}
+
+#page5 canvas {
+    max-width: 100vw;
+    max-height: 100vh;
+    position: relative;
+}
+
+
+
+/* page5 */
+#page6 {
+    height: 100vh;
+    min-width: 100vw;
+    position: relative;
+    background-color: #1639D4;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 150px;
+    align-items: center;
+}
+
+#page6 #page6-texts {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#page6 h5 {
+    color: #fff;
+    font: 400 1.3rem Jost0;
+}
+#page6 p {
+    font: 300 4rem/1.3 Jost0;
+    color: #ffffff6b;
+}
